@@ -39,34 +39,6 @@
     <p>최종 디자인 및 가이드 라인</p>
 </div>
 
-## 폴더 구조
-```bash
-root
-├── assets                   # 애셋 파일 (폰트, 이미지 등)
-│   ├── fonts                # 폰트 파일
-│   └── images               # 이미지 파일
-│       ├── members          # 팀원 관련 이미지
-│       ├── screenshots      # 스크린샷 이미지
-│       └── sparta.png       # 스파르타 이미지
-├── lib                      # 주요 소스 코드
-│   ├── components           # 재사용 가능한 컴포넌트
-│   │   ├── common           # 공통 컴포넌트
-│   │   ├── user             # 팀원 관련 컴포넌트
-│   │   └── user_detail      # 팀원 상세 정보 컴포넌트
-│   ├── models               # 데이터 모델
-│   │   └── UserProfile.dart # 팀원 프로필 데이터 모델
-│   ├── pages                # 앱의 주요 화면
-│   │   ├── HomeScreen.dart  # 홈 화면
-│   │   └── UserDetailScreen.dart # 사용자 상세 화면
-│   └── utils                # 유틸리티 파일
-│       ├── CaculateAge.dart # 나이 계산 유틸리티
-│       ├── contant.dart     # 상수 정의 파일
-│       └── main.dart        # 앱의 진입점
-├── README.md                # 프로젝트 설명 파일
-├── pubspec.yaml             # Flutter 프로젝트 설정 파일
-└── ...
-```
-
 ## 주요 UI 구성 요소 정의 및 레이아웃 설계
 
 <table width="100%">
@@ -109,6 +81,34 @@ root
     - 역량 영역
     - 스킬 영역
     - 스킬
+
+## 폴더 구조
+```bash
+root
+├── assets                   # 애셋 파일 (폰트, 이미지 등)
+│   ├── fonts                # 폰트 파일
+│   └── images               # 이미지 파일
+│       ├── members          # 팀원 관련 이미지
+│       ├── screenshots      # 스크린샷 이미지
+│       └── sparta.png       # 스파르타 이미지
+├── lib                      # 주요 소스 코드
+│   ├── components           # 재사용 가능한 컴포넌트
+│   │   ├── common           # 공통 컴포넌트
+│   │   ├── user             # 팀원 관련 컴포넌트
+│   │   └── user_detail      # 팀원 상세 정보 컴포넌트
+│   ├── models               # 데이터 모델
+│   │   └── UserProfile.dart # 팀원 프로필 데이터 모델
+│   ├── pages                # 앱의 주요 화면
+│   │   ├── HomeScreen.dart  # 홈 화면
+│   │   └── UserDetailScreen.dart # 사용자 상세 화면
+│   └── utils                # 유틸리티 파일
+│       ├── CaculateAge.dart # 나이 계산 유틸리티
+│       ├── contant.dart     # 상수 정의 파일
+│       └── main.dart        # 앱의 진입점
+├── README.md                # 프로젝트 설명 파일
+├── pubspec.yaml             # Flutter 프로젝트 설정 파일
+└── ...
+```
 
 ## 데이터 관리
 
