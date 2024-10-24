@@ -1,0 +1,50 @@
+# Flutter/Dart 관련 파일 무시
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+
+# iOS 관련 파일 무시
+ios/Pods/
+ios/Podfile.lock
+ios/Runner.xcworkspace/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+xcuserdata/
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android 관련 파일 무시
+android/.gradle/
+android/app/build/
+android/.idea/
+android/local.properties
+android/*.iml
+*.jks
+
+# Visual Studio Code 관련 파일 무시
+.vscode/
+
+# IntelliJ 관련 파일 무시
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# 기타 불필요한 파일
+*.log
+*.lock
+*.tmp
+*.swp
+*.swo
+*.orig
