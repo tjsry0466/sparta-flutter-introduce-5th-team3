@@ -9,15 +9,15 @@
 
 <table>
     <tr>
-        <td align="center">
+        <td align="center" width="33%">
             <img src="./assets/images/screenshots/sample.gif" width="200"/>
             <p>실행 영상</p>
         </td>
-        <td align="center">
+        <td align="center" width="33%">
             <img src="./assets/images/screenshots/home_screenshot.png" width="200"/>
             <p>홈 화면</p>
         </td>
-        <td align="center">
+        <td align="center" width="33%">
             <img src="./assets/images/screenshots/user_detail_screenshot.png" width="200"/>
             <p>팀원 상세 화면</p>
         </td>
@@ -69,22 +69,23 @@ root
 
 ### 주요 UI 구성 요소 정의 및 레이아웃 설계
 
-<table>
+<table width="100%">
     <tr>
-        <td align="center">
-            <img src="./assets/images/screenshots/home_introduction.jpeg" width="200"/>
+        <td align="center" width="33%">
+            <img src="./assets/images/screenshots/home_introduction.jpeg" width="100%"/>
             <p>홈 UI 설계</p>
         </td>
-        <td align="center">
-            <img src="./assets/images/screenshots/user_detail_1_introduction.jpeg" width="200"/>
+        <td align="center" width="33%">
+            <img src="./assets/images/screenshots/user_detail_1_introduction.jpeg" width="100%"/>
             <p>팀원 상세 화면 1</p>
         </td>
-        <td align="center">
-            <img src="./assets/images/screenshots/user_detail_2_introduction.jpeg" width="200"/>
+        <td align="center" width="33%">
+            <img src="./assets/images/screenshots/user_detail_2_introduction.jpeg" width="100%"/>
             <p>팀원 상세 화면 2</p>
         </td>
     </tr>
 </table>
+
 
 - 2개의 페이지와 8개의 컴포넌트로 정의
 - 페이지와 컴포넌트는 각각의 파일로 정의
