@@ -1,5 +1,7 @@
 # 팀 스파르타 앱 창업 5기 - 3조 팀 소개 앱
 
+> 발표 자료: https://drive.google.com/file/d/1J5CX1R0TadwfdP6z0UaKGpdZ8C0WnBgS/view?usp=drive_link
+
 ## 앱 소개
 
 - 플러터 앱 창업 과정의 첫 주 동안 진행된 프로젝트로, 팀원을 소개하는 앱 입니다. 
