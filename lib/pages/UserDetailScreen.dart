@@ -34,8 +34,8 @@ class UserDetailScreen extends StatelessWidget {
             ),
             onPressed: () => Navigator.of(context).pop(),
           ),
-          title: const Text('프로필 보기'),
-          titleTextStyle: const TextStyle(fontSize: 12, color: Colors.black),
+          title: Text(user.name),
+          titleTextStyle: const TextStyle(fontSize: 18, color: Colors.black),
         ),
       ),
       body: SingleChildScrollView(
